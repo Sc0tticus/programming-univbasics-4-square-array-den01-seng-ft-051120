@@ -5,8 +5,13 @@
 #end
 #new_array=[1,4,0,16]
 
-
-
 def square_array(array)
-
+  counter=0 
+  new_array=[]
+  
+  while counter < array.length do
+    puts new_array.push(array[counter]**2)
+    counter += 1 
+  end
+new_array
 end
